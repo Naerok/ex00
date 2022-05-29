@@ -26,6 +26,7 @@ public class TimeMapperTests {
 	
 	@Test
 	public void testTime2() {
+		log.info("getTime2()");
 		log.info(timeMapper.getTime2());
 	}
 }
